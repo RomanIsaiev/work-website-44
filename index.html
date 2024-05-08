@@ -825,11 +825,7 @@
                 <div class="price-container">
                   <p class="price"><span>$170</span> &nbsp; $25</p>
                 </div>
-                <button
-                  class="buy-button"
-                  type="button"
-                  data-action="open-modal"
-                >
+                <button class="buy-button" type="button" data-modal-open>
                   купити
                 </button>
               </li>
@@ -924,11 +920,7 @@
                 <div class="price-container">
                   <p class="price"><span>$300</span> &nbsp; $45</p>
                 </div>
-                <button
-                  class="buy-button"
-                  type="button"
-                  data-action="open-modal"
-                >
+                <button class="buy-button" type="button" data-modal-open>
                   купити
                 </button>
               </li>
@@ -1051,11 +1043,7 @@
                 <div class="price-container">
                   <p class="price"><span>$1300</span> &nbsp; $450</p>
                 </div>
-                <button
-                  class="buy-button"
-                  type="button"
-                  data-action="open-modal"
-                >
+                <button class="buy-button" type="button" data-modal-open>
                   купити
                 </button>
               </li>
@@ -1249,18 +1237,14 @@
         >
       </div>
     </footer>
-    <div class="backdrop js-backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button
-          class="modal-close-button"
-          type="button"
-          data-action="close-modal"
-        >
+        <button type="button" class="close-button" data-modal-close>
           <img
             src="./src/img/close-modal-icon.svg"
-            alt=" close"
-            width="30"
-            height="30"
+            width="40"
+            height="40"
+            alt="close"
           />
         </button>
         <script
