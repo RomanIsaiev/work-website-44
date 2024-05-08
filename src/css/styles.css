@@ -97,6 +97,14 @@ img {
   background-position: center;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header .background {
+    background-image: url(../img/header-background-2x.jpg);
+  }
+}
+
 .about-course-container {
   display: flex;
   justify-content: space-between;
@@ -348,6 +356,14 @@ img {
   background-position: center;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .single-format .background {
+    background-image: url(../img/single-format-background-2x.png);
+  }
+}
+
 .single-format .title-container {
   max-width: 335px;
   margin-left: auto;
@@ -526,6 +542,14 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .how-going .background {
+    background-image: url(../img/how-going-background-2x.jpg);
+  }
 }
 
 .how-going .title-container {
@@ -811,6 +835,14 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .tariffs .background {
+    background-image: url(../img/tariffs-background-2x.jpg);
+  }
 }
 
 .tariffs-title {
