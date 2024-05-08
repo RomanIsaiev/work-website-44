@@ -27,7 +27,7 @@
             будь-яких цілей, легко впоратися з викликами та вийти на новий
             рівень якості життя
           </p>
-          <a class="header-btn link" href="">Хочу на курс</a>
+          <a class="header-btn link" href="#tariffs">Хочу на курс</a>
         </div>
       </div>
       <div class="container">
@@ -467,7 +467,7 @@
                 </p>
               </li>
             </ul>
-            <a class="how-going-btn link" href="">Зареєструватися</a>
+            <a class="how-going-btn link" href="#tariffs">Зареєструватися</a>
             <div class="bonus orange">
               <picture
                 ><source
@@ -754,7 +754,7 @@
           <p class="what-result-easy">
             Легкість, свобода, відчуття безумовної любові та щастя
           </p>
-          <p class="what-result-just">
+          <p class="what-result-just" id="tariffs">
             Просто виберіть, в якому форматі вирушите в це чудове майбутнє
           </p>
           <picture
@@ -825,7 +825,13 @@
                 <div class="price-container">
                   <p class="price"><span>$170</span> &nbsp; $25</p>
                 </div>
-                <a class="buy-button link" href="">купити</a>
+                <button
+                  class="buy-button"
+                  type="button"
+                  data-action="open-modal"
+                >
+                  купити
+                </button>
               </li>
               <li class="list-item">
                 <div class="item-title-container">
@@ -918,7 +924,13 @@
                 <div class="price-container">
                   <p class="price"><span>$300</span> &nbsp; $45</p>
                 </div>
-                <a class="buy-button link" href="">купити</a>
+                <button
+                  class="buy-button"
+                  type="button"
+                  data-action="open-modal"
+                >
+                  купити
+                </button>
               </li>
               <li class="list-item">
                 <div class="item-title-container">
@@ -1039,7 +1051,13 @@
                 <div class="price-container">
                   <p class="price"><span>$1300</span> &nbsp; $450</p>
                 </div>
-                <a class="buy-button link" href="">купити</a>
+                <button
+                  class="buy-button"
+                  type="button"
+                  data-action="open-modal"
+                >
+                  купити
+                </button>
               </li>
             </ul>
             <p class="attention-text">
@@ -1231,6 +1249,28 @@
         >
       </div>
     </footer>
+    <div class="backdrop js-backdrop">
+      <div class="modal">
+        <button
+          class="modal-close-button"
+          type="button"
+          data-action="close-modal"
+        >
+          <img
+            src="./src/img/close-modal-icon.svg"
+            alt=" close"
+            width="30"
+            height="30"
+          />
+        </button>
+        <script
+          id="35825b0cc97a3fc788e98029b766c422b9776996"
+          src="https://vikabardadym.in.ua/pl/lite/widget/script?id=1183273"
+        ></script>
+      </div>
+    </div>
+    <script type="module" src="/src/js/scroll.js"></script>
     <script type="module" src="/src/js/timer.js"></script>
+    <script type="module" src="/src/js/js-modal.js"></script>
   </body>
 </html>
