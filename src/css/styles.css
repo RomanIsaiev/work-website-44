@@ -66,7 +66,7 @@ p {
   padding: 0;
 }
 
-image {
+img {
   display: block;
 }
 
@@ -77,4 +77,1005 @@ image {
   margin-right: auto;
 
   max-width: 375px;
+}
+
+/* header */
+
+.header {
+  padding-bottom: 60px;
+}
+
+.header .background {
+  padding-top: 20px;
+
+  max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/header-background-1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-course-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.about-course-text {
+  color: #fff;
+  font-family: 'Futura PT';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header-title-container {
+  margin-bottom: 280px;
+}
+
+.header-title {
+  color: #fff;
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70%;
+
+  margin-bottom: 10px;
+}
+
+.header-subtitle {
+  display: block;
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 149px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70%;
+  letter-spacing: -2.98px;
+
+  background: linear-gradient(90deg, #eaa800 0%, #ffeb80 50%, #eaa800 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-desc {
+  color: #101010;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 100%; /* 19px */
+
+  max-width: 335px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 15px;
+}
+
+.header-btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 120%; /* 21.6px */
+  text-transform: uppercase;
+
+  padding: 15px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #4a81ef 0%, #7db1ff 50%, #4a81ef 100%);
+
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 60px;
+}
+
+/* bonus */
+
+.bonus {
+  position: relative;
+}
+
+.bonus-wrapper-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bonus-title {
+  color: #4a81ef;
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+
+  max-width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 20px;
+}
+
+.bonus-title span {
+  color: #101010;
+  font-size: 21px;
+}
+
+.bonus-image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner-wrapper {
+  position: relative;
+
+  padding: 20px 30px;
+  border-radius: 20px;
+  background: #eef3fe;
+
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 20px;
+}
+
+.bonus-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  max-width: 228px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 30px;
+}
+
+.bonus-list .list-item {
+  color: #101010;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 15px */
+}
+
+.bonus-list .list-item span {
+  font-weight: 500;
+}
+
+.additionally-bonus {
+  color: #4a81ef;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+
+  max-width: 228px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.additionally-bonus span {
+  font-weight: 500;
+}
+
+.inner-wrapper-image {
+  position: absolute;
+  left: -30px;
+  bottom: 10px;
+}
+
+/* timer */
+
+.countdown {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.countdown-time {
+  display: block;
+
+  color: #4a81ef;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.64px;
+
+  width: 70px;
+}
+
+.countdown-doubledot {
+  content: '';
+  display: flex;
+
+  height: 25px;
+  width: 1px;
+  background: #4a81ef;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* single-format */
+
+.single-format .background {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../img/single-format-background-1x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.single-format .title-container {
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 220px;
+}
+
+.single-format-title {
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%;
+
+  background: linear-gradient(90deg, #eaa800 0%, #ffeb80 50%, #eaa800 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 5px;
+}
+
+.single-format-subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 80%; /* 21.6px */
+  letter-spacing: -0.48px;
+}
+
+.single-format-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 20px;
+}
+
+.single-format-list .list-item {
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.32px;
+
+  padding: 8px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.single-format-desc {
+  color: #a4c8ff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 90%;
+  letter-spacing: -0.4px;
+}
+
+.single-format-desc span {
+  font-weight: 450;
+}
+
+/* practical-course */
+
+.practical-course {
+  max-width: 428px;
+  margin: 0 auto;
+  background: #eef3fe;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.practical-course-title {
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80%;
+
+  background: linear-gradient(90deg, #4a81ef 0%, #96c0ff 50%, #4a81ef 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.practical-course-subtitle {
+  display: block;
+  color: #101010;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 70%; /* 25.2px */
+  letter-spacing: -0.56px;
+
+  margin-bottom: 20px;
+}
+
+.practical-course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 60px;
+}
+
+.practical-course-list .list-item {
+  display: flex;
+
+  border-radius: 9px;
+  background: #fff;
+}
+
+.practical-course-list .practical-image {
+  border-radius: 9px 0 0 9px;
+}
+
+.practical-course-list .text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #000;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90%; /* 14.4px */
+  letter-spacing: -0.32px;
+
+  padding-left: 20px;
+}
+
+.practical-course-list .title {
+  margin-bottom: 5px;
+  max-width: 175px;
+}
+
+.practical-course-list .text {
+  font-weight: 400;
+  max-width: 175px;
+}
+
+/* how-going */
+
+.how-going .background {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../img/how-going-background-1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.how-going .title-container {
+  margin-bottom: 40px;
+}
+
+.how-going-title {
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%;
+
+  background: linear-gradient(90deg, #eaa800 0%, #ffeb80 50%, #eaa800 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.how-going-subtitle {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 80%; /* 25.2px */
+  letter-spacing: -0.56px;
+}
+
+.how-going-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  max-width: 276px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 20px;
+}
+
+.how-going-list .list-item {
+  position: relative;
+
+  padding: 25px 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.how-going-list .item-number-image {
+  position: absolute;
+  left: 50%;
+  top: -20%;
+
+  transform: translate(-50%);
+}
+
+.how-going-list .item-text {
+  color: #090909;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%; /* 14.4px */
+  letter-spacing: -0.32px;
+
+  max-width: 236px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-going-btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 120%; /* 19.2px */
+  text-transform: uppercase;
+
+  padding: 10px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #4a81ef 0%, #7db1ff 50%, #4a81ef 100%);
+
+  max-width: 276px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 80px;
+}
+
+/* bonus two */
+
+.bonus.orange .bonus-title {
+  color: #eaa903;
+}
+
+.bonus.orange .bonus-title span {
+  color: #fff;
+}
+
+.bonus.orange .inner-wrapper {
+  background: #fff;
+}
+
+.bonus.orange .additionally-bonus {
+  color: #eaa903;
+}
+
+.bonus.orange .countdown-time {
+  color: #eaa903;
+}
+
+.bonus.orange .countdown-doubledot {
+  background: #eaa903;
+}
+
+/* what-result */
+
+.what-result {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.what-result .title-container {
+  margin-bottom: 40px;
+}
+
+.what-result-title {
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80%;
+
+  background: linear-gradient(90deg, #4a81ef 0%, #96c0ff 50%, #4a81ef 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.what-result-subtitle {
+  display: block;
+  color: #101010;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 90%; /* 19.8px */
+  letter-spacing: -0.44px;
+}
+
+.what-result-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-bottom: 80px;
+}
+
+.what-result-list .list-item {
+  position: relative;
+
+  color: #101010;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.32px;
+
+  padding: 20px 30px;
+  border-radius: 5px;
+  background: #ffe8ad;
+  max-width: 335px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.what-result-image {
+  position: absolute;
+  left: 50%;
+  top: -20%;
+
+  transform: translate(-50%);
+}
+
+.what-result-wrapper {
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: 1px solid #4a81ef;
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 20px;
+}
+
+.what-result-wrapper .title {
+  color: #4a81ef;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 90%; /* 19.8px */
+  letter-spacing: -0.44px;
+
+  margin-bottom: 10px;
+}
+
+.what-result-wrapper .text {
+  color: #101010;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.32px;
+}
+
+.what-result-easy {
+  color: #101010;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.32px;
+
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 15px;
+}
+
+.what-result-just {
+  color: #4a81ef;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.32px;
+
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 10px;
+}
+
+.hand-down-image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* tariffs */
+
+.tariffs .background {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../img/tariffs-background-1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tariffs-title {
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  background: linear-gradient(90deg, #4a81ef 0%, #96c0ff 50%, #4a81ef 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 40px;
+}
+
+.tariffs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-bottom: 20px;
+}
+
+.tariffs-list .list-item {
+  padding: 30px 40px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.tariffs-list .item-title-container::after {
+  content: '';
+  display: block;
+
+  height: 1px;
+  width: 200px;
+
+  background: #e2eeff;
+
+  margin: 20px auto;
+}
+
+.tariffs-list .item-title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tariffs-list .item-title {
+  color: #7db1ff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 26px */
+  text-transform: uppercase;
+}
+
+.tariffs-categories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tariffs-categories-list .category-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.category-item-text {
+  color: #101010;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+}
+
+.tariffs-categories-list .category-item-text .accent {
+  color: #4a81ef;
+  font-weight: 450;
+}
+
+.price-container {
+  margin-bottom: 20px;
+}
+
+.price-container::before {
+  content: '';
+  display: block;
+
+  height: 1px;
+  width: 200px;
+
+  background: #e2eeff;
+
+  margin: 20px auto;
+}
+
+.price {
+  color: #101010;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 100%; /* 32px */
+  text-transform: uppercase;
+}
+
+.price span {
+  color: #969696;
+  text-decoration: line-through;
+  text-decoration-color: #969696;
+}
+
+.buy-button {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  text-transform: uppercase;
+
+  padding: 14px;
+  border-radius: 50px;
+  background: #7db1ff;
+
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tariffs-categories-list .category-item-text.accent {
+  color: #4a81ef;
+}
+
+.tariffs-categories-list .category-item-text.accent span {
+  font-weight: 500;
+}
+
+.premium-box {
+  display: flex;
+  gap: 5px;
+}
+
+.author-name {
+  color: #7db1ff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 26px */
+  text-transform: uppercase;
+}
+
+.attention-text {
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 15.4px */
+
+  max-width: 254px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 60px;
+}
+
+.attention-text span {
+  color: #7db1ff;
+}
+
+/* footer */
+
+.footer {
+  background-color: #101010;
+  max-width: 428px;
+  margin: 0 auto;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-box {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.deals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-bottom: 30px;
+}
+
+.deals-list .list-item a {
+  color: #fff;
+  font-family: 'Futura PT';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.fop-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-mail {
+  color: #fff;
+  font-family: 'Futura PT';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fop-text {
+  color: #fff;
+  font-family: 'Futura PT';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer-social-list {
+  position: absolute;
+  right: 0;
+  top: 9px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.disign-creator-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.creator-text {
+  color: #fff;
+  font-family: 'Futura PT';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
