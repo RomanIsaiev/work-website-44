@@ -1163,6 +1163,7 @@ body.modal-open {
   padding-left: 24px;
 
   width: 95%;
+  max-height: 700px;
 
   border-radius: 20px;
   background: #ffffff;
